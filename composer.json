@@ -1,0 +1,19 @@
+{
+    "name": "geeh/eye-spy",
+    "description": "I spy with my little eye...",
+    "authors": [
+        {
+            "name": "Gary Hockin",
+            "email": "gary@hock.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ocramius/proxy-manager": "~1"
+    },
+    "autoload": {
+        "psr-0": {
+            "EyeSpy\\": "src"
+        }
+    }
+}
