@@ -11,7 +11,6 @@ class Spoof
 {
     public function doSomething($aParameter)
     {
-        echo 'Doing Something' . PHP_EOL;
         return $aParameter;
     }
 
