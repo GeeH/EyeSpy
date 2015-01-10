@@ -10,7 +10,7 @@
   "minimum-stability": "dev",
   "require": {
     "ocramius/proxy-manager": "~1",
-    "phpunit/phpunit": "~4.0"
+    "phpunit/phpunit": "4.4.1"
   },
   "autoload": {
     "psr-0": {
