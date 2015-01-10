@@ -8,7 +8,7 @@ class SpyTestCaseTest extends \EyeSpy\SpyTestCase
     {
         $spoof = new \EyeSpyTestAsset\Spoof();
         /** @var Spoof $proxy */
-        $spoof = $this->createProxy($spoof, 'doSomething', ['aParameter' => 'MindBlown']);
+        $spoof = $this->spy($spoof, 'doSomething', ['aParameter' => 'MindBlown']);
         $this->assertInstanceOf(\ProxyManager\Proxy\ValueHolderInterface::class, $spoof);
 
         $this->assertEquals('MindBlown', $spoof->doSomething('MindBlown'));

@@ -31,7 +31,7 @@ class SpyTestCase extends \PHPUnit_Framework_TestCase
      * @param array $expectedParameters
      * @return mixed
      */
-    public function createProxy($object, $expectedMethod, array $expectedParameters)
+    public function spy($object, $expectedMethod, array $expectedParameters)
     {
         $className = get_class($object);
 
